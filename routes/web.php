@@ -15,6 +15,11 @@ Route::get('/classes/manage', function () { return view('pages/classes/manage');
 Route::get('/classes/manage/new_class', function () { return view('pages/classes/new_class');})->name('new_class.manage');
 Route::get('/classes/manage/edit', function () { return view('pages/classes/edit');})->name('new_class.manage');
 
+// Route::get('/classes/overview', function () { return view('pages/classes/overview');})->name('classes.overview');
+// Route::get('/classes/manage', function () { return view('pages/classes/manage');})->name('classes.manage');
+// Route::get('/classes/manage/new_class', function () { return view('pages/classes/new_class');})->name('new_class.manage');
+// Route::get('/classes/manage/edit', function () { return view('pages/classes/edit');})->name('new_class.manage');
+
 Route::get('/classes/students', function () { return view('pages/classes/students');})->name('classes.students');
 // assessments routes
 Route::get('/assessments/section', function () { return view('pages/assessments/section');})->name('assessments.section');
